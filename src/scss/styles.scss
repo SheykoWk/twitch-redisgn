@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+:root{
+    --clr-dark: rgb(38, 34, 43);
+    --clr-light: rgb(232, 232, 232);
+    --clr-accent: rgb(102, 65, 166);
+    --clr-accent-dark: rgb(82, 40, 159);
+    --clr-secondary: rgb(251, 55, 101);
+}
+body{
+    min-width: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    font-family: "Inter",sans-serif;
+}
+
